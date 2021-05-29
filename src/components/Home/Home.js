@@ -25,6 +25,7 @@ const Home = () => {
                 <div className="login__message">
                     <h2>📰</h2>
                     <h1>News From Around The World!</h1>
+                    <h2>Let's start!</h2>
                     <p>
                         We try to provide any valuable news from around the world to you as quickly as possible.
                     </p>
