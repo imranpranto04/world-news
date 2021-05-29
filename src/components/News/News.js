@@ -30,7 +30,7 @@ const News = () => {
     return (
 
         <div className="news__page">
-            <h1 className="news__page__header">News</h1>
+            <h1 className="news__page__header">Latest News</h1>
             {loading ? <h1 className="loading">Loading...</h1> : ""}
             <div className="news">
                 {blogs?.articles?.map((blog) => (
@@ -49,7 +49,7 @@ const News = () => {
 
                 {blogs?.totalArticles == 0 && (
                     <h1 className="no__blogs">
-                        No News available.
+                        Sorry No News available right now.
                     </h1>
                 )}
             </div>

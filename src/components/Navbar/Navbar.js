@@ -38,7 +38,7 @@ const Navbar = () => {
 
     return (
         <div className="container-fluid navbar">
-            <h1 className="navbar__header">World News 💬</h1>
+            <h1 className="navbar__header">💬 World News</h1>
             {isSignedIn && (
                 <div className="blog__search">
                     <input

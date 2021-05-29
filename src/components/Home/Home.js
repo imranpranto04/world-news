@@ -24,10 +24,10 @@ const Home = () => {
             {!isSignedIn ? (
                 <div className="login__message">
                     <h2>📰</h2>
-                    <h1>News From Around The World!</h1>
-                    <h2>Let's start!</h2>
+                    <h1>World News</h1>
+                    <h2>Let's start...</h2>
                     <p>
-                        We try to provide any valuable news from around the world to you as quickly as possible.
+                        Read World News Update with us.
                     </p>
                     <GoogleLogin
                         clientId="216669075185-89i6rb5idhg8bee5a9n6qlki839h8cd9.apps.googleusercontent.com"
