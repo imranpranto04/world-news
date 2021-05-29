@@ -29,6 +29,13 @@ const Navbar = () => {
         dispatch(setInput(inputValue));
     };
 
+    const handleKeyPress = (e) => {
+        if (e.key === 'Enter') {
+            dispatch(setInput(inputValue));
+        }
+      }
+   
+
     return (
         <div className="container-fluid navbar">
             <h1 className="navbar__header">World News 💬</h1>
@@ -38,6 +45,7 @@ const Navbar = () => {
                         className="search"
                         placeholder="Search for a blog"
                         value={inputValue}
+                        onKeyPress={handleKeyPress}
                         onChange={(e) => setInputValue(e.target.value)}
                     />
                     <button className="submit" onClick={handleClick}>
