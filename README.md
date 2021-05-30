@@ -17,8 +17,13 @@
 • For searching specific type of news, there is search option which is also work by pressing Enter button. 
 
 # Tools: 
+
 • @reactjs/toolkit
+
 • react-redux
+
 • bootstrap 
+
 • react-google-login
+
 • @material-ui/core
