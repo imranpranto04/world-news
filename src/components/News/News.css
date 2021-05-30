@@ -76,3 +76,21 @@
     font-weight: 500;
     line-height: 1.5em;
   }
+<<<<<<< HEAD
+=======
+  @media only screen and (max-width: 600px) {
+    .news {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 1em;
+      grid-row-gap: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .news__page {
+      margin-top:100px;
+      padding: 0%;
+    }
+  }
+>>>>>>> team2
