@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 import { selectUserInput, setBlogData } from "../../features/userSlice";
@@ -29,7 +30,8 @@ const News = () => {
 
     return (
 
-        <div className="news__page">
+        <section className="container">
+            <div className="news__page ">
             <h1 className="news__page__header">Latest News</h1>
             {loading ? <h1 className="loading">Loading...</h1> : ""}
             <div className="news">
@@ -54,6 +56,7 @@ const News = () => {
                 )}
             </div>
         </div>
+        </section>
     );
 };
 
