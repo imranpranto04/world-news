@@ -1,6 +1,6 @@
 # World News
 
-# Livw site: https://nostalgic-swirles-31c8fa.netlify.app/
+# Live site: https://nostalgic-swirles-31c8fa.netlify.app/
 
 # Features
 • Main attraction of this website is getting all type of news portals, all type of incident happens in the any corner of the world from this one website.
